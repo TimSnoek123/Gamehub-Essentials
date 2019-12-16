@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Gamehub_essentials:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5732bd5e-839e-4f2b-b203-50fed88ac6de" name="Default Changelist" comment="" />
+    <list default="true" id="5732bd5e-839e-4f2b-b203-50fed88ac6de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Gamehub_essentials_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/AbstractGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/GameToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/AbstractGameToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/Lobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/AbstractLobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Abstractions/AbstractUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Encryption/ABSEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gamehub/essentials/Encryption/AESEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gamehub/essentials/Abstractions/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gamehub/essentials/Abstractions/GameToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gamehub/essentials/Abstractions/Lobby.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gamehub/essentials/Abstractions/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gamehub/essentials/Encryption/ABSEncryption.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,14 +40,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1UmbeVa2QJfeqYHLaIUCQ2XspI3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Skribbl_Clone_Repo/JavaChat" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KochFractal" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -105,11 +131,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575964812494</updated>
-      <workItem from="1575964816031" duration="1762000" />
+      <workItem from="1575964816031" duration="6708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

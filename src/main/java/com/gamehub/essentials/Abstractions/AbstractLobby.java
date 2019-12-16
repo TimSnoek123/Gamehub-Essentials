@@ -5,18 +5,18 @@ import com.gamehub.essentials.Abstractions.Enums.LobbyType;
 
 import java.util.ArrayList;
 
-public abstract class Lobby {
+public abstract class AbstractLobby {
 
-    private String id;
-    private String name;
-    private Game game;
-    private LobbyType type;
-    private LobbyState state;
-    private int minUserCount;
-    private int maxUserCount;
-    private ArrayList<User> users;
+    protected String id;
+    protected String name;
+    protected AbstractGame game;
+    protected LobbyType type;
+    protected LobbyState state;
+    protected int minUserCount;
+    protected int maxUserCount;
+    protected ArrayList<AbstractUser> users;
 
-    public Lobby(String id, String name, Game game, LobbyType type, LobbyState state, int minUserCount, int maxUserCount, ArrayList<User> users) {
+    public AbstractLobby(String id, String name, AbstractGame game, LobbyType type, LobbyState state, int minUserCount, int maxUserCount, ArrayList<AbstractUser> users) {
         this.id = id;
         this.name = name;
         this.game = game;
@@ -27,7 +27,7 @@ public abstract class Lobby {
         this.users = users;
     }
 
-    public Lobby() {
+    public AbstractLobby() {
     }
 
     public String getId() {
@@ -46,11 +46,11 @@ public abstract class Lobby {
         this.name = name;
     }
 
-    public Game getGame() {
+    public AbstractGame getGame() {
         return game;
     }
 
-    public void setGame(Game game) {
+    public void setGame(AbstractGame game) {
         this.game = game;
     }
 
@@ -86,11 +86,11 @@ public abstract class Lobby {
         this.maxUserCount = maxUserCount;
     }
 
-    public ArrayList<User> getUsers() {
+    public ArrayList<AbstractUser> getUsers() {
         return users;
     }
 
-    public void setUsers(ArrayList<User> users) {
+    public void setUsers(ArrayList<AbstractUser> users) {
         this.users = users;
     }
 }

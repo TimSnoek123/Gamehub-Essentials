@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="Gamehub_essentials:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Gamehub_essentials_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Gamehub_essentials.jar">
+        <element id="module-output" name="Gamehub_essentials" />
+      </element>
+    </root>
+  </artifact>
+</component>

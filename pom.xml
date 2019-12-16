@@ -6,12 +6,13 @@
 
     <groupId>com.gamehub.essentials</groupId>
     <artifactId>Gamehub-library</artifactId>
-    <version>1.0</version>p
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>These are the essentials needed for the Gamehub application</description>
-    <url>http://www.gamehub.com</url>
+    <url>https://github.com/TimSnoek123/Gamehub-Essentials</url>
+
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -25,11 +26,27 @@
     <developers>
         <developer>
             <name>Tim Snoek</name>
-            <email></email>
-            <organization>Sonatype</organization>
-            <organizationUrl>http://www.sonatype.com</organizationUrl>
+            <email>timfreddie@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Joep Verhoeven</name>
+            <email>turbojoep1@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Ramon Peek</name>
+            <email>ramonpeek@hotmail.com</email>
+        </developer>
+        <developer>
+            <name>Damien Kusters</name>
+            <email>damienkusters9@gmail.com</email>
         </developer>
     </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/TimSnoek123/Gamehub-Essentials.git</connection>
+        <developerConnection>scm:git:ssh://github.com:TimSnoek123/Gamehub-Essentials.git</developerConnection>
+        <url>https://github.com/TimSnoek123/Gamehub-Essentials/tree/master</url>
+    </scm>
 
     <build>
         <pluginManagement>

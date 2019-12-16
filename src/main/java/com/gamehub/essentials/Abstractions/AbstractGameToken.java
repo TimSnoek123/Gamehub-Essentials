@@ -1,10 +1,10 @@
 package com.gamehub.essentials.Abstractions;
 
-public abstract class GameToken {
-    private String name;
-    private String value;
-    private String toUser;
-    private String redirectUrl;
+public abstract class AbstractGameToken {
+    protected String name;
+    protected String value;
+    protected String toUser;
+    protected String redirectUrl;
 
     public String getName() {
         return name;

@@ -1,16 +1,16 @@
 package com.gamehub.essentials.Abstractions;
 
 
-public abstract class Game {
-    private String id;
-    private String name;
-    private String APIURL;
-    private int minUserCount;
-    private int maxUserCount;
-    private String thumbnailPath;
-    private String secretGameKey;
+public abstract class AbstractGame {
+    protected String id;
+    protected String name;
+    protected String APIURL;
+    protected int minUserCount;
+    protected int maxUserCount;
+    protected String thumbnailPath;
+    protected String secretGameKey;
 
-    public Game(String id, String name, String redirectURI, int minUserCount, int maxUserCount, String thumbnailPath, String secretGameKey) {
+    public AbstractGame(String id, String name, String redirectURI, int minUserCount, int maxUserCount, String thumbnailPath, String secretGameKey) {
         this.id = id;
         this.name = name;
         this.APIURL = redirectURI;
@@ -20,7 +20,7 @@ public abstract class Game {
         this.secretGameKey = secretGameKey;
     }
 
-    public Game() {
+    public AbstractGame() {
     }
 
     public String getId() {

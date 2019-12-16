@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.KeySpec;
 import java.util.Base64;
 
-public class ABSEncryption {
+public class AESEncryption {
     private static final byte[] SALT = {
             (byte) 0xA9, (byte) 0x9B, (byte) 0xC8, (byte) 0x32,
             (byte) 0x56, (byte) 0x35, (byte) 0xE3, (byte) 0x03
@@ -21,7 +21,7 @@ public class ABSEncryption {
     private Cipher encryptCipher;
     private Cipher decryptCipher;
 
-    public ABSEncryption() throws NoSuchPaddingException, NoSuchAlgorithmException {
+    public AESEncryption() throws NoSuchPaddingException, NoSuchAlgorithmException {
         encryptCipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
         decryptCipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
     }

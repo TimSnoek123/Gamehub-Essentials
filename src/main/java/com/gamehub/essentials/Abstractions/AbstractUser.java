@@ -1,13 +1,13 @@
 package com.gamehub.essentials.Abstractions;
 
-public abstract class User {
+public abstract class AbstractUser {
 
-    private String username;
+    protected String username;
 
-    public User() {
+    public AbstractUser() {
     }
 
-    public User(String username) {
+    public AbstractUser(String username) {
         this.username = username;
     }
 
